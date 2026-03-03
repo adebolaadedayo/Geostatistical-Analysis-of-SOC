@@ -16,6 +16,8 @@ Soil research is still reliant on traditional point-based sampling, but it does 
 
 To enhance mapping accuracy, researchers have recently adopted Digital Soil Mapping (DSM) frameworks that utilize environmental covariates (Gibson et al., 2021; Y. Wang et al., 2011). Methods like Empirical Bayesian Kriging Regression (EBKR) allow for the integration of explanatory variables such as elevation and slope derived from Digital Elevation Models (DEMs), as well as soil physicochemical properties like Nitrogen and Clay content, to model the non-spatial variance of SOC (John et al., 2021; Sahu et al., 2021; Y. Wang et al., 2011).
 
+---
+
 # Objectives
 
 The main objectives of this project were to:
@@ -24,6 +26,28 @@ The main objectives of this project were to:
 - Investigate the integration of *environmental covariates*, including a terrain derivative (elevation) and a soil physicochemical property (Nitrogen), using the **Empirical Bayesian Kriging Regression** technique.
 - Produce a definitive **SOC prediction surface** and an associated **Prediction Standard Error map** to quantify the spatial distribution of carbon stocks in Bavaria and identify high-uncertainty areas.
 
+---
+
+# Methodology
+
+![methodology](https://github.com/user-attachments/assets/c7555d59-a113-4cce-810e-89976e192c26)
+
+- **Data:** 118 topsoil samples from the LUCAS 2018 dataset.
+- **Analysis:** Conducted Exploratory Spatial Data Analysis (ESDA) using Global and Local Moran's I to identify spatial clustering
+- **Validation:** Models were cross-validated using RMSE and Mean Error (ME).
+
+---
+
+# Key Findings
+
+| Parameter          | IDW    | OK     | EBK    | EBKR   |
+| --------------     | ------ | ------ | ------ | ------ |
+| Mean Error (ME)    | -0.461 | 0.040  | -0.005 | 0.008  |                       
+| RMSE               | 19.792 | 16.449 | 16.618 | 16.680 |
+
+- **Best Model:** Empirical Bayesian Kriging Regression (EBKR).
+- **Result:** The EBKR achieved the highest local precision (standard error of 1.88) by integrating Elevation and Nitrogen as covariates.
+- **Spatial Trend:** There was a significant North-South gradient with carbon hotspots in the Alpine foreland.
 
 ---
 
