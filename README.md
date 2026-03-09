@@ -33,7 +33,7 @@ The main objectives of this project were to:
 ### 📂 Repository Structure
 
 ```text
-├── analysis/
+├── [analysis/](https://github.com/adebolaadedayo/Geostatistical-Analysis-of-SOC/tree/main/analysis)
 │   ├── esda/                # Global/Local Moran's I results, Voronoi maps
 │   └── validation/          # Cross-validation tables (RMSE/ME metrics)
 ├── data/
