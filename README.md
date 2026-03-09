@@ -79,6 +79,10 @@ This project was developed exclusively using **ArcGIS Pro**, leveraging advanced
 | Mean Error (ME)    | -0.461 | 0.040  | -0.005 | 0.008  |                       
 | RMSE               | 19.792 | 16.449 | 16.618 | 16.680 |
 
+| Empirical Bayesian Kriging | Empirical Bayesian Kriging Regression  |
+| :---: | :---: |
+| <img src="output/maps/EBK_Pred_Surface_map.png" width="400"> | <img src="output/maps/EBK_Regression_Pred_Surface_map.png" width="400"> |
+
 - **Best Model:** Empirical Bayesian Kriging Regression (EBKR).
 - **Result:** The EBKR achieved the highest local precision (standard error of 1.88) by integrating Elevation and Nitrogen as covariates.
 - **Spatial Trend:** There was a significant North-South gradient with carbon hotspots in the Alpine foreland.
