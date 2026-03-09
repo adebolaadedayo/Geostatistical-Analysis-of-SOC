@@ -66,7 +66,7 @@ This project was developed exclusively using **ArcGIS Pro**, leveraging advanced
 
 ![methodology](https://github.com/user-attachments/assets/c7555d59-a113-4cce-810e-89976e192c26)
 
-- **Data:** 118 topsoil samples from the LUCAS 2018 dataset.
+- **Data:** 118 topsoil samples from the LUCAS 2018 dataset in [ESDAC](https://esdac.jrc.ec.europa.eu/content/lucas-2018-topsoil-data) and boundary shapefile obtained from [GADM](https://gadm.org/data.html).
 - **Analysis:** Conducted Exploratory Spatial Data Analysis (ESDA) using Global and Local Moran's I to identify spatial clustering
 - **Validation:** Models were cross-validated using RMSE and Mean Error (ME).
 
