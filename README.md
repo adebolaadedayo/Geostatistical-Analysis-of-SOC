@@ -28,6 +28,30 @@ The main objectives of this project were to:
 
 ---
 
+# Repository Structure
+
+### 📂 Repository Structure
+
+```text
+├── analysis/
+│   ├── esda/                # Global/Local Moran's I results, Voronoi maps
+│   └── validation/          # Cross-validation tables (RMSE/ME metrics)
+├── data/
+│   ├── raw/                 # LUCAS 2018 Topsoil Data
+│   ├── processed/           # Cleaned LUCAS 2018 Topsoil Data
+│   └── shapefiles/          # GADM Bavaria boundary
+├── docs/                    # Final PDF Report and Appendix tables
+├── output/
+│   ├── maps/                # High-resolution prediction surfaces and error maps
+│   └── stats/               # Descriptive statistics and semivariogram plots
+└── README.md                # The main project landing page
+
+```
+
+---
+
+# Technical Stack
+
 # Methodology
 
 ![methodology](https://github.com/user-attachments/assets/c7555d59-a113-4cce-810e-89976e192c26)
