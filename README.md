@@ -50,7 +50,17 @@ The main objectives of this project were to:
 
 ---
 
-# Technical Stack
+# 🛠️ Technical Stack (ArcGIS Pro Workflow) 
+
+This project was developed exclusively using **ArcGIS Pro**, leveraging advanced geostatistical extensions for predictive modeling.
+
+* **Geostatistical Modeling:** Geostatistical Wizard, Ordinary Kriging, Empirical Bayesian Kriging (EBK).
+* **Hybrid Modeling:** EBK Regression Prediction (incorporating SRTM DEM and Nitrogen covariates).
+* **Spatial Statistics:** Global/Local Moran's I (Anselin), Voronoi Tessellation, and Outlier Analysis.
+* **Data Preprocessing:** Coordinate System Transformation (ETRS 1989 UTM Zone 32N), Dimensionality Reduction, and Spatial Clipping.
+* **Validation:** Leave-one-out Cross-Validation (LOOCV) using RMSE and Mean Error metrics.
+
+---
 
 # Methodology
 
